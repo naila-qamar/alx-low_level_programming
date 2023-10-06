@@ -1,22 +1,23 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point, prints hexadecimal numbers in lowercase
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
     int number;
 
-    /* Loop through numbers 0 - 9 and letters a - f */
-    for (number = 48; number <= 102; number++)
+    for (number = 48; number < 58; number++)
     {
-        /* Only print numbers 0-9 and a-f */
-        if ((number <= 57) || (number >= 97))
-        {
-            /* Print the character */
-            putchar(number);
-        }
+        putchar(number);
     }
-    /* Print a new line */
+    for (number = 97; number < 103; number++)
+    {
+        putchar(number);
+    }
     putchar('\n');
 
     return (0);
 }
-
