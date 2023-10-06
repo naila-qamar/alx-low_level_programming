@@ -1,22 +1,23 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-    char letter;
+    char ch;
 
-    /* Loop through the alphabet */
-    for (letter = 'a'; letter <= 'z'; letter++)
+    for (ch = 'a'; ch <= 'z'; ch++)
     {
-        /* Check for letters 'e' and 'q' */
-        if (letter != 'e' && letter != 'q')
+        if (ch != 'e' && ch != 'q')
         {
-            /* Print the letter */
-            putchar(letter);
+            putchar(ch);
         }
     }
-    /* Print a newline */
+
     putchar('\n');
 
     return (0);
 }
-
