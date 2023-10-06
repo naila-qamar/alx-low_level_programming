@@ -1,18 +1,20 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-    int number;
+    int num;
 
-    /* Loop from 0 to 9 */
-    for (number = 0; number < 10; number++)
+    for (num = 0; num < 10; num++)
     {
-        /* Print the number */
-        printf("%d", number);
+        printf("%d", num);
     }
-    /* Print a new line */
+
     printf("\n");
 
     return (0);
 }
-
