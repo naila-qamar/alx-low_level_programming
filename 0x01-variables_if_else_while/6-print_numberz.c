@@ -1,18 +1,20 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-    int number;
+    int num;
 
-    /* Loop through ASCII values of 0 to 9 */
-    for (number = 48; number <= 57; number++)
+    for (num = 0; num < 10; num++)
     {
-        /* Print the number */
-        putchar(number);
+        putchar(num + '0');
     }
-    /* Print a new line */
+
     putchar('\n');
 
     return (0);
 }
-
