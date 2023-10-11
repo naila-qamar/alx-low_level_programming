@@ -15,6 +15,7 @@ int main(void)
 
     return (0);
 }
+<<<<<<< HEAD
 #include "main.h"
 
 /**
@@ -37,3 +38,5 @@ int main(void)
     return (0);
 }
 
+=======
+>>>>>>> 5a94951bcd39ef2a3dca2ceaf2961e7d8b6f982e
