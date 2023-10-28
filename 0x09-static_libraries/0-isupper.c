@@ -4,7 +4,3 @@ int _isupper(int c)
         return (1);
     return (0);
 }
-int _isupper(int c)
-{
-    /* Function implementation */
-}
